@@ -1,0 +1,97 @@
+# Created at 2023-09-17T17:34:05.545
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-09-17T17:34:06.552
+Unexpected IOException with stream: 2023-09-17 17:34:06.544  INFO 11652 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+
+# Created at 2023-09-17T17:34:06.864
+Unexpected IOException with stream: 2023-09-17 17:34:06.862  INFO 11652 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 272ms. Found 1 JPA repository interfaces.
+
+
+# Created at 2023-09-17T17:34:12.560
+Unexpected IOException with stream: 2023-09-17 17:34:12.557  INFO 11652 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2023-09-17T17:34:13.619
+Unexpected IOException with stream: 2023-09-17 17:34:13.617  INFO 11652 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2023-09-17T17:34:14.258
+Unexpected IOException with stream: 2023-09-17 17:34:14.255  INFO 11652 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+
+# Created at 2023-09-17T17:34:15.135
+Unexpected IOException with stream: 2023-09-17 17:34:15.133  INFO 11652 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+
+
+# Created at 2023-09-17T17:34:16.927
+Unexpected IOException with stream: 2023-09-17 17:34:16.923  INFO 11652 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+
+
+# Created at 2023-09-17T17:34:18.151
+Unexpected IOException with stream: 2023-09-17 17:34:18.142  INFO 11652 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+
+
+# Created at 2023-09-17T17:34:23.021
+Unexpected IOException with stream: 2023-09-17 17:34:23.011  INFO 11652 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2023-09-17T17:34:23.105
+Unexpected IOException with stream: 2023-09-17 17:34:23.096  INFO 11652 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2023-09-17T17:34:26.678
+Unexpected IOException with stream: 2023-09-17 17:34:26.669  WARN 11652 --- [           main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+
+
+# Created at 2023-09-17T17:34:26.689
+Unexpected IOException with stream: 2023-09-17 17:34:26.679  WARN 11652 --- [           main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+
+
+# Created at 2023-09-17T17:34:26.713
+Unexpected IOException with stream: 2023-09-17 17:34:26.702  WARN 11652 --- [           main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+
+
+# Created at 2023-09-17T17:34:27.873
+Unexpected IOException with stream: 2023-09-17 17:34:27.863  WARN 11652 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2023-09-17T17:34:29.662
+Unexpected IOException with stream: 2023-09-17 17:34:29.652  INFO 11652 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2023-09-17T17:34:30.213
+Unexpected IOException with stream: 2023-09-17 17:34:30.200  INFO 11652 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+
+
+# Created at 2023-09-17T17:34:33.501
+Unexpected IOException with stream: 2023-09-17 17:34:33.490  INFO 11652 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/users?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&useLegacyDatetimeCode=false'
+
+
+# Created at 2023-09-17T17:34:33.810
+Unexpected IOException with stream: 2023-09-17 17:34:33.800  INFO 11652 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+
+
+# Created at 2023-09-17T17:34:34.009
+Unexpected IOException with stream: 2023-09-17 17:34:34.000  INFO 11652 --- [           main] c.b.users.UsersApplicationTests          : Started UsersApplicationTests in 33.406 seconds (JVM running for 36.792)
+
+
+# Created at 2023-09-17T17:34:34.172
+Unexpected IOException: 5,1,com.bbtutorials.users.UsersApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-09-17T17:34:34.894
+Unexpected IOException: 6,1,com.bbtutorials.users.UsersApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-09-17T17:34:34.910
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.bbtutorials.users.UsersApplicationTests,null,null,null
+
+
